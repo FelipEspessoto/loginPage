@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Configurando cor de fundo, display center e a fonte  */
+html, body{
+    background-color: #f0f8FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+/* Editando título e subtítulo */
+.title .titulo{
+    margin-top: 1em;
+    text-align: center;
+    color: #380b61;
+}
+.title .subtitulo{
+    text-align: center;
+    margin-bottom: 1em;
+}
+/* Estilizando inputs nome/sobrenome*/
+.name{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #380b61;
+}
+.name input{
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 16em;
+    height: 2em;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+}
+.surname{
+    display: flex;
+    flex-direction: column;
+    width: 15em;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #380b61;
+}
+.surname input{
+    border-radius: 5px;
+    width: 16em;
+    height: 2em;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+}
+/* Retirando a borda do fielset */
+.grupo1{
+    display: flex; 
+    border: transparent;
+}
+/* Estilziando campo email */
+.email{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #380b61;
+}
+.email input{
+    width: 33em;
+    border-radius: 5px;
+    height: 2em;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+}
+/* Estilziando campo radio */
+.radio-btn{
+    display: flex;
+    flex-direction: column;
+}
+.txt-label{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;    
+    color: #380b61;
+}
+.radio-btn input{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.radio-btn .fullstack{
+    margin-bottom: 1em;
+}
+/* Estilziando campo senioridade */
+.senioridade{
+    display: flex;
+    flex-direction: column;   
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #380b61;
+}
+.senioridade select{
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-top: 5px;
+    width:  7em;
+    margin-bottom: 1em;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+}
+/* Estilziando campo tecnologias */
+.tecnologias .txttec{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #380b61;
+}
+.tecnologias{
+    color: #380b61;
+    margin-bottom: 1em;
+}
+    /* Retirando a borda do fielset */
+.grupo2{
+    border: transparent;
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+}
+.textarea label{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #380b61;
+}
+.textarea textarea{
+    border-radius: 5px;
+    height: 10em;
+    width: 33em;
+    margin-bottom: 2em;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+}
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.submit input{
+    padding: 10px;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    color: #380b61;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgb(0,0,0,0.2);
+}
