@@ -1,5 +1,5 @@
 That's a login page made in HMTL and CSS to practice forms and styles.
-The reference is that video of Rafaela Ballerini:  
+The reference is a video of Rafaela Ballerini:  
 
 https://www.youtube.com/watch?v=wwqOJ2o84S4
 
